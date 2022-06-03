@@ -17,7 +17,7 @@ CREATE TABLE SpotifyClone.artista(
 
 CREATE TABLE SpotifyClone.album(
 	album_id INT AUTO_INCREMENT NOT NULL,
-  artista_id INT NOT NULL,
+    artista_id INT NOT NULL,
     album VARCHAR(500) NOT NULL,
     ano_lancamento VARCHAR(7) NOT NULL,
     CONSTRAINT PRIMARY KEY(album_id),
