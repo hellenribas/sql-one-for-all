@@ -1,4 +1,4 @@
-SELECT cancao AS nome, COUNT(cancao) FROM SpotifyClone.plano AS plano
+SELECT cancao AS nome, COUNT(cancao) AS reproducoes FROM SpotifyClone.plano AS plano
 INNER JOIN SpotifyClone.usuario AS us
 ON us.plano_id = plano.plano_id
 INNER JOIN SpotifyClone.historico AS his
